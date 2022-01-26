@@ -41,3 +41,11 @@
         }
     };
 </script>
+
+<style scoped>
+.remove {
+    background-color: transparent;
+    color: #f33;
+    border: none;
+}
+</style>

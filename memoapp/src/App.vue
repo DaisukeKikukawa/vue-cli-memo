@@ -32,18 +32,50 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  text-align: center;
 }
-
-#nav {
-  padding: 30px;
+a {
+  color: inherit;
 }
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.list {
+  text-align: center;
+  text-decoration: none;
 }
+html {
+  background-color: orange;
+  text-align: center;
+}
+textarea {
+  width: 40%;
+  height: 10em;
+}
+button {
+  padding: 5px 20px;
+  margin-right: 10px;
+}
+</style>
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+<style scoped>
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.router {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  size: 100px;
+}
+button {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 20px;
+  line-height: 24px;
+  padding: 0 8px;
+  background: #0099e4;
+  color: #fff;
+  cursor: pointer;
 }
 </style>
