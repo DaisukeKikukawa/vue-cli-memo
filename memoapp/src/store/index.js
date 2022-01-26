@@ -11,7 +11,6 @@ export default new Vuex.Store({
   },
   mutations: {
     save(state, memo) {
-      // 最大のidを取得する
       memo.id = state.memos.length + 1;
       state.memos.push(memo);
     },
