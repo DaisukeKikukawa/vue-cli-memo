@@ -36,10 +36,10 @@ export default {
 }
 a {
   color: inherit;
+  text-decoration: none;
 }
 .list {
   text-align: center;
-  text-decoration: none;
 }
 html {
   background-color: orange;
@@ -48,24 +48,6 @@ html {
 textarea {
   width: 40%;
   height: 10em;
-}
-button {
-  padding: 5px 20px;
-  margin-right: 10px;
-}
-</style>
-
-<style scoped>
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.router {
-  color: aliceblue;
-  text-align: center;
-  text-decoration: none;
-  size: 100px;
 }
 button {
   width: 300px;
@@ -77,5 +59,17 @@ button {
   background: #0099e4;
   color: #fff;
   cursor: pointer;
+}
+
+ul {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.router {
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  size: 100px;
 }
 </style>
