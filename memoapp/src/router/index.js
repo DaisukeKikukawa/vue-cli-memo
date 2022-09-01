@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import New from '../views/New.vue'
+import Edit from '../views/Edit.vue'
 
 Vue.use(VueRouter)
 
@@ -9,14 +11,12 @@ const routes = [{
     {
         path: '/new',
         name: 'New',
-        component: () =>
-            import ('../views/New.vue')
+        component: New
     },
     {
         path: '/edit/:id',
         name: 'Edit',
-        component: () =>
-            import ('../views/Edit.vue')
+        component: Edit
     }
 ]
 
